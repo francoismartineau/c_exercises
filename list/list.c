@@ -20,14 +20,14 @@ struct List
 Node* new_node()
 {
     Node *the_node;
-    the_node = malloc(sizeof(Node));
+    the_node = malloc(sizeof(*the_node));
     return the_node;
 }
 
 List* new_list()
 {
     List *the_list;
-    the_list = malloc(sizeof(List));
+    the_list = malloc(sizeof(*the_list));
     the_list->size = 0;
     
     Node *first = new_node();

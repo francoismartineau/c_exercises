@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "errno.h": "c",
+        "errno-base.h": "c",
+        "features.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "pthread.h": "c",
+        "lib.h": "c",
+        "stdbool.h": "c"
+    }
+}

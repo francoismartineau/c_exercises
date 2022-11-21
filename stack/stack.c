@@ -15,7 +15,7 @@ struct Stack
 Stack* new_stack()
 {
     Stack *the_stack;
-    the_stack = malloc(sizeof(Stack));
+    the_stack = malloc(sizeof(*the_stack));
     the_stack->next = NULL;
     return the_stack;
 }
